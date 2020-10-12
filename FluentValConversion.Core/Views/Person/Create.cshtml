@@ -1,0 +1,29 @@
+﻿@model FluentValConversion.Models.Person
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@Html.ValidationSummary()
+
+@using (Html.BeginForm())
+{
+    <p>ID</p>
+    @Html.TextBoxFor(x => x.ID)
+    @Html.ValidationMessageFor(x => x.ID)
+    <br />
+
+    <p>First Name</p>
+    @Html.TextBoxFor(x => x.FirstName)
+    @Html.ValidationMessageFor(x => x.FirstName)
+    <br />
+
+    <p>Email</p>
+    @Html.TextBoxFor(x => x.Email)
+    @Html.ValidationMessageFor(x => x.Email)
+    <br />
+    <br />
+    <input type="submit" value="submit" />
+}

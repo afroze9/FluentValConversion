@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValConversion.Models"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValConversion.MVC", "FluentValConversion.MVC\FluentValConversion.MVC.csproj", "{C4449C40-866E-4305-8400-1BA974C97ED4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValConversion.Core", "FluentValConversion.Core\FluentValConversion.Core.csproj", "{1781887F-008D-4CB7-BA91-E76A0A0157B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C4449C40-866E-4305-8400-1BA974C97ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4449C40-866E-4305-8400-1BA974C97ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4449C40-866E-4305-8400-1BA974C97ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1781887F-008D-4CB7-BA91-E76A0A0157B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1781887F-008D-4CB7-BA91-E76A0A0157B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1781887F-008D-4CB7-BA91-E76A0A0157B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1781887F-008D-4CB7-BA91-E76A0A0157B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
