@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30524.135
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValConversion.Models", "FluentValConversion.Models\FluentValConversion.Models.csproj", "{7464D658-1C7A-475B-BEA6-3083988E159A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValConversion.MVC", "FluentValConversion.MVC\FluentValConversion.MVC.csproj", "{C4449C40-866E-4305-8400-1BA974C97ED4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7464D658-1C7A-475B-BEA6-3083988E159A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7464D658-1C7A-475B-BEA6-3083988E159A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7464D658-1C7A-475B-BEA6-3083988E159A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7464D658-1C7A-475B-BEA6-3083988E159A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4449C40-866E-4305-8400-1BA974C97ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4449C40-866E-4305-8400-1BA974C97ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4449C40-866E-4305-8400-1BA974C97ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4449C40-866E-4305-8400-1BA974C97ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
